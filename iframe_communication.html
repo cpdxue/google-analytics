@@ -56,7 +56,7 @@
       
       var is_top_frame = (self === top)? true : false;
       var is_iframe = (self !== top)? true : false;
-      if (is_top_frame and && !is_iframe){
+      if (is_top_frame && !is_iframe){
          ga('send', 'pageview');
       }
     })
