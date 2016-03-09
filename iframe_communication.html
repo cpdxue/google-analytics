@@ -13,13 +13,13 @@
     </script>
   </head>
   <body>
-
     <section class="page-header">
       <h1 class="project-name">Communication between Parent and Iframe</h1>
     </section>
-
+    
+    <br><br>
     <section>
-      <h2>rxiayth.github.io</h2>
+      <h2>Host: rxiayth.github.io</h2>
     </section>
     
     <br><br><br><br><br>
@@ -27,6 +27,8 @@
     <script>
 
     $(document).ready( function(){
+      // The following could be a dictionary mapping.
+      // E.g. { 'site_1': ['iframe_1,iframe_2,i_frame3'], 'site_2':['iframe1'], 'site_3':[]}
       parent_domain = "http://rxiayth.github.io";
       child_domain = "http://cpdxue.github.io";
       // Create IE + others compatible event handler
